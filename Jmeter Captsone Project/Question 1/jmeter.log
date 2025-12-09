@@ -1,0 +1,535 @@
+2025-12-09 08:08:57,284 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-12-09 08:08:57,307 INFO o.a.j.JMeter: Loading user properties from: C:\apache-jmeter-5.6.3\bin\user.properties
+2025-12-09 08:08:57,308 INFO o.a.j.JMeter: Loading system properties from: C:\apache-jmeter-5.6.3\bin\system.properties
+2025-12-09 08:08:57,315 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-12-09 08:08:57,315 INFO o.a.j.JMeter: Version 5.6.3
+2025-12-09 08:08:57,315 INFO o.a.j.JMeter: java.version=25
+2025-12-09 08:08:57,315 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-12-09 08:08:57,315 INFO o.a.j.JMeter: os.name=Windows 10
+2025-12-09 08:08:57,315 INFO o.a.j.JMeter: os.arch=amd64
+2025-12-09 08:08:57,316 INFO o.a.j.JMeter: os.version=10.0
+2025-12-09 08:08:57,317 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-12-09 08:08:57,317 INFO o.a.j.JMeter: java.awt.headless=true
+2025-12-09 08:08:57,317 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-12-09 08:08:57,317 INFO o.a.j.JMeter: Available Processors =4
+2025-12-09 08:08:57,333 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-12-09 08:08:57,333 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-12-09 08:08:57,333 INFO o.a.j.JMeter: JMeterHome=C:\apache-jmeter-5.6.3
+2025-12-09 08:08:57,333 INFO o.a.j.JMeter: user.dir  =C:\Users\Administrator\Desktop\JMeter\Jmeter Project
+2025-12-09 08:08:57,334 INFO o.a.j.JMeter: PWD       =C:\Users\Administrator\Desktop\JMeter\Jmeter Project
+2025-12-09 08:08:57,337 INFO o.a.j.JMeter: IP: 172.19.37.203 Name: 31cb147f963253c FullName: 172.19.37.203
+2025-12-09 08:08:57,348 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\Administrator\Desktop\JMeter\Jmeter Project\reportq1'
+2025-12-09 08:08:57,351 INFO o.a.j.s.FileServer: Default base='C:\Users\Administrator\Desktop\JMeter\Jmeter Project'
+2025-12-09 08:08:57,352 INFO o.a.j.s.FileServer: Set new base='C:\Users\Administrator\Desktop\JMeter\Jmeter Project'
+2025-12-09 08:08:57,653 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-12-09 08:08:57,679 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-12-09 08:08:57,683 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-12-09 08:08:57,686 INFO o.a.j.s.SaveService: Loading file: vehicle-insurance-application.jmx
+2025-12-09 08:08:57,731 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2025-12-09 08:08:57,734 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2025-12-09 08:08:57,763 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-09 08:08:57,763 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-09 08:08:57,763 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-09 08:08:57,764 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-09 08:08:57,764 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-12-09 08:08:57,764 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-12-09 08:08:57,832 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-12-09 08:08:57,837 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2025-12-09 08:08:57,837 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: resultq1.jtl
+2025-12-09 08:08:57,838 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\apache-jmeter-5.6.3\bin\reportgenerator.properties
+2025-12-09 08:08:57,862 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2025-12-09 08:08:57,874 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2025-12-09 08:08:57,880 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2025-12-09 08:08:57,880 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2025-12-09 08:08:57,880 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2025-12-09 08:08:57,880 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2025-12-09 08:08:57,880 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2025-12-09 08:08:57,881 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2025-12-09 08:08:57,881 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2025-12-09 08:08:57,881 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2025-12-09 08:08:57,888 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2025-12-09 08:08:57,889 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-12-09 08:08:57,889 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2025-12-09 08:08:57,889 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2025-12-09 08:08:57,890 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2025-12-09 08:08:57,890 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2025-12-09 08:08:57,890 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-12-09 08:08:57,890 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-12-09 08:08:57,890 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-12-09 08:08:57,890 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-12-09 08:08:57,891 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2025-12-09 08:08:57,891 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2025-12-09 08:08:57,892 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2025-12-09 08:08:57,892 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2025-12-09 08:08:57,892 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2025-12-09 08:08:57,892 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2025-12-09 08:08:57,910 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-12-09 08:08:57,912 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-12-09 08:08:57,912 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-12-09 08:08:57,917 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-12-09 08:08:57,917 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-12-09 08:08:57,992 INFO o.a.j.r.ClassFinder: Will scan jar C:\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-webdriver-4.13.0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-12-09 08:08:58,010 INFO o.a.j.r.ClassFinder: Will scan jar C:\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-12-09 08:08:58,018 INFO o.a.j.r.ClassFinder: Will scan jar C:\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.11.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-12-09 08:08:58,162 INFO o.a.j.r.ClassFinder: Will scan jar C:\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-casutg-3.1.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-12-09 08:08:58,235 INFO o.a.j.JMeter: Running test (1765247938235)
+2025-12-09 08:08:58,264 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : response time
+2025-12-09 08:08:58,265 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group response time.
+2025-12-09 08:08:58,265 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-12-09 08:08:58,265 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2025-12-09 08:08:58,274 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-12-09 08:08:58,274 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-12-09 08:08:58,274 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-12-09 08:08:58,274 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-12-09 08:08:58,275 INFO o.a.j.t.JMeterThread: Thread started: response time 1-1
+2025-12-09 08:08:58,279 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-12-09 08:08:58,279 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Throughput test
+2025-12-09 08:08:58,279 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Throughput test.
+2025-12-09 08:08:58,279 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-12-09 08:08:58,279 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=20 ramp-up=1 delayedStart=false
+2025-12-09 08:08:58,293 INFO o.a.j.t.JMeterThread: Thread started: Throughput test 2-1
+2025-12-09 08:08:58,293 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2025-12-09 08:08:58,293 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Scalability test
+2025-12-09 08:08:58,293 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Scalability test.
+2025-12-09 08:08:58,293 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-12-09 08:08:58,293 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 3 threads 100
+2025-12-09 08:08:58,308 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-1
+2025-12-09 08:08:58,311 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-2
+2025-12-09 08:08:58,315 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-4
+2025-12-09 08:08:58,314 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-3
+2025-12-09 08:08:58,317 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-5
+2025-12-09 08:08:58,318 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-6
+2025-12-09 08:08:58,319 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-7
+2025-12-09 08:08:58,320 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-8
+2025-12-09 08:08:58,321 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-9
+2025-12-09 08:08:58,322 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-10
+2025-12-09 08:08:58,323 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-11
+2025-12-09 08:08:58,324 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-12
+2025-12-09 08:08:58,326 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-13
+2025-12-09 08:08:58,327 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-14
+2025-12-09 08:08:58,330 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-15
+2025-12-09 08:08:58,331 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-16
+2025-12-09 08:08:58,346 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-17
+2025-12-09 08:08:58,347 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-18
+2025-12-09 08:08:58,348 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-19
+2025-12-09 08:08:58,349 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = 31cb147f963253c
+2025-12-09 08:08:58,350 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-20
+2025-12-09 08:08:58,354 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-12-09 08:08:58,359 INFO o.a.j.t.JMeterThread: Thread started: Throughput test 2-2
+2025-12-09 08:08:58,377 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 3
+2025-12-09 08:08:58,377 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-12-09 08:08:58,380 INFO o.a.j.t.JMeterThread: Thread started: response time 1-2
+2025-12-09 08:08:58,393 INFO o.a.j.t.JMeterThread: Thread started: Throughput test 2-3
+2025-12-09 08:08:58,444 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2025-12-09 08:08:58,445 INFO o.a.j.t.JMeterThread: Thread started: Throughput test 2-4
+2025-12-09 08:08:58,452 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2025-12-09 08:08:58,453 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2025-12-09 08:08:58,471 INFO o.a.j.t.JMeterThread: Thread started: response time 1-3
+2025-12-09 08:08:58,495 INFO o.a.j.t.JMeterThread: Thread started: Throughput test 2-5
+2025-12-09 08:08:58,546 INFO o.a.j.t.JMeterThread: Thread started: Throughput test 2-6
+2025-12-09 08:08:58,582 INFO o.a.j.t.JMeterThread: Thread started: response time 1-4
+2025-12-09 08:08:58,596 INFO o.a.j.t.JMeterThread: Thread started: Throughput test 2-7
+2025-12-09 08:08:58,647 INFO o.a.j.t.JMeterThread: Thread started: Throughput test 2-8
+2025-12-09 08:08:58,675 INFO o.a.j.t.JMeterThread: Thread started: response time 1-5
+2025-12-09 08:08:58,694 INFO o.a.j.t.JMeterThread: Thread started: Throughput test 2-9
+2025-12-09 08:08:58,720 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2025-12-09 08:08:58,724 INFO o.a.j.u.SSLManager: KeyStore created OK
+2025-12-09 08:08:58,724 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2025-12-09 08:08:58,746 INFO o.a.j.t.JMeterThread: Thread started: Throughput test 2-10
+2025-12-09 08:08:58,779 INFO o.a.j.t.JMeterThread: Thread started: response time 1-6
+2025-12-09 08:08:58,797 INFO o.a.j.t.JMeterThread: Thread started: Throughput test 2-11
+2025-12-09 08:08:58,847 INFO o.a.j.t.JMeterThread: Thread started: Throughput test 2-12
+2025-12-09 08:08:58,880 INFO o.a.j.t.JMeterThread: Thread started: response time 1-7
+2025-12-09 08:08:58,895 INFO o.a.j.t.JMeterThread: Thread started: Throughput test 2-13
+2025-12-09 08:08:58,946 INFO o.a.j.t.JMeterThread: Thread started: Throughput test 2-14
+2025-12-09 08:08:59,003 INFO o.a.j.t.JMeterThread: Thread started: response time 1-8
+2025-12-09 08:08:59,009 INFO o.a.j.t.JMeterThread: Thread started: Throughput test 2-15
+2025-12-09 08:08:59,045 INFO o.a.j.t.JMeterThread: Thread started: Throughput test 2-16
+2025-12-09 08:08:59,080 INFO o.a.j.t.JMeterThread: Thread started: response time 1-9
+2025-12-09 08:08:59,095 INFO o.a.j.t.JMeterThread: Thread started: Throughput test 2-17
+2025-12-09 08:08:59,145 INFO o.a.j.t.JMeterThread: Thread started: Throughput test 2-18
+2025-12-09 08:08:59,181 INFO o.a.j.t.JMeterThread: Thread started: response time 1-10
+2025-12-09 08:08:59,195 INFO o.a.j.t.JMeterThread: Thread started: Throughput test 2-19
+2025-12-09 08:08:59,246 INFO o.a.j.t.JMeterThread: Thread started: Throughput test 2-20
+2025-12-09 08:09:00,224 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-09 08:09:00,224 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-09 08:09:00,309 INFO o.a.j.p.h.s.ResourcesDownloader: Creating ResourcesDownloader with keepalive_inseconds : 60
+2025-12-09 08:09:00,572 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2025-12-09 08:09:00,572 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2025-12-09 08:09:01,757 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [331:3] Deprecated property name '*zoom'
+2025-12-09 08:09:01,758 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [353:3] Deprecated property name '*zoom'
+2025-12-09 08:09:01,759 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [364:3] Deprecated property name '*zoom'
+2025-12-09 08:09:01,878 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1177:3] Deprecated property name '*zoom'
+2025-12-09 08:09:01,884 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1359:5] Deprecated property name '*zoom'
+2025-12-09 08:09:01,891 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1529:5] Deprecated property name '*zoom'
+2025-12-09 08:09:01,894 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: [1589:3] Deprecated property name '*zoom'
+2025-12-09 08:09:05,015 INFO o.a.j.r.Summariser: summary +      1 in 00:00:07 =    0.1/s Avg:  5955 Min:  5955 Max:  5955 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2025-12-09 08:09:08,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-24
+2025-12-09 08:09:08,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-23
+2025-12-09 08:09:08,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-21
+2025-12-09 08:09:08,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-22
+2025-12-09 08:09:10,595 INFO o.a.j.t.JMeterThread: Thread is done: response time 1-6
+2025-12-09 08:09:10,596 INFO o.a.j.t.JMeterThread: Thread finished: response time 1-6
+2025-12-09 08:09:11,131 INFO o.a.j.t.JMeterThread: Thread is done: response time 1-2
+2025-12-09 08:09:11,131 INFO o.a.j.t.JMeterThread: Thread finished: response time 1-2
+2025-12-09 08:09:11,154 INFO o.a.j.t.JMeterThread: Thread is done: response time 1-3
+2025-12-09 08:09:11,155 INFO o.a.j.t.JMeterThread: Thread finished: response time 1-3
+2025-12-09 08:09:13,652 INFO o.a.j.t.JMeterThread: Thread is done: response time 1-7
+2025-12-09 08:09:13,653 INFO o.a.j.t.JMeterThread: Thread finished: response time 1-7
+2025-12-09 08:09:14,256 INFO o.a.j.t.JMeterThread: Thread is done: response time 1-5
+2025-12-09 08:09:14,257 INFO o.a.j.t.JMeterThread: Thread finished: response time 1-5
+2025-12-09 08:09:14,930 INFO o.a.j.t.JMeterThread: Thread is done: response time 1-9
+2025-12-09 08:09:14,930 INFO o.a.j.t.JMeterThread: Thread finished: response time 1-9
+2025-12-09 08:09:17,010 INFO o.a.j.t.JMeterThread: Thread is done: response time 1-10
+2025-12-09 08:09:17,010 INFO o.a.j.t.JMeterThread: Thread finished: response time 1-10
+2025-12-09 08:09:18,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-27
+2025-12-09 08:09:18,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-26
+2025-12-09 08:09:18,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-25
+2025-12-09 08:09:18,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-28
+2025-12-09 08:09:25,968 INFO o.a.j.t.JMeterThread: Thread is done: response time 1-8
+2025-12-09 08:09:25,969 INFO o.a.j.t.JMeterThread: Thread finished: response time 1-8
+2025-12-09 08:09:28,295 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-31
+2025-12-09 08:09:28,295 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-32
+2025-12-09 08:09:28,295 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-30
+2025-12-09 08:09:28,295 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-29
+2025-12-09 08:09:28,804 INFO o.a.j.t.JMeterThread: Thread is done: response time 1-1
+2025-12-09 08:09:28,804 INFO o.a.j.t.JMeterThread: Thread finished: response time 1-1
+2025-12-09 08:09:30,324 INFO o.a.j.r.Summariser: summary +    134 in 00:00:25 =    5.3/s Avg:  7680 Min:  2488 Max: 30363 Err:    74 (55.22%) Active: 53 Started: 62 Finished: 9
+2025-12-09 08:09:30,325 INFO o.a.j.r.Summariser: summary =    135 in 00:00:32 =    4.2/s Avg:  7667 Min:  2488 Max: 30363 Err:    74 (54.81%)
+2025-12-09 08:09:37,022 INFO o.a.j.t.JMeterThread: Thread is done: response time 1-4
+2025-12-09 08:09:37,023 INFO o.a.j.t.JMeterThread: Thread finished: response time 1-4
+2025-12-09 08:09:38,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-36
+2025-12-09 08:09:38,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-33
+2025-12-09 08:09:38,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-35
+2025-12-09 08:09:38,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-34
+2025-12-09 08:09:48,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-40
+2025-12-09 08:09:48,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-37
+2025-12-09 08:09:48,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-38
+2025-12-09 08:09:48,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-39
+2025-12-09 08:09:58,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-43
+2025-12-09 08:09:58,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-41
+2025-12-09 08:09:58,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-42
+2025-12-09 08:09:58,295 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-44
+2025-12-09 08:10:00,451 INFO o.a.j.r.Summariser: summary +    178 in 00:00:30 =    5.9/s Avg:  6755 Min:  2445 Max: 35279 Err:   141 (79.21%) Active: 64 Started: 74 Finished: 10
+2025-12-09 08:10:00,452 INFO o.a.j.r.Summariser: summary =    313 in 00:01:02 =    5.0/s Avg:  7149 Min:  2445 Max: 35279 Err:   215 (68.69%)
+2025-12-09 08:10:08,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-46
+2025-12-09 08:10:08,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-45
+2025-12-09 08:10:08,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-47
+2025-12-09 08:10:08,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-48
+2025-12-09 08:10:18,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-51
+2025-12-09 08:10:18,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-52
+2025-12-09 08:10:18,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-49
+2025-12-09 08:10:18,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-50
+2025-12-09 08:10:28,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-56
+2025-12-09 08:10:28,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-54
+2025-12-09 08:10:28,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-53
+2025-12-09 08:10:28,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-55
+2025-12-09 08:10:30,062 INFO o.a.j.r.Summariser: summary +    216 in 00:00:30 =    7.3/s Avg:  7221 Min:  2220 Max: 51805 Err:   186 (86.11%) Active: 76 Started: 86 Finished: 10
+2025-12-09 08:10:30,063 INFO o.a.j.r.Summariser: summary =    529 in 00:01:32 =    5.8/s Avg:  7178 Min:  2220 Max: 51805 Err:   401 (75.80%)
+2025-12-09 08:10:38,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-57
+2025-12-09 08:10:38,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-60
+2025-12-09 08:10:38,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-59
+2025-12-09 08:10:38,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-58
+2025-12-09 08:10:48,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-63
+2025-12-09 08:10:48,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-62
+2025-12-09 08:10:48,295 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-61
+2025-12-09 08:10:48,295 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-64
+2025-12-09 08:10:58,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-66
+2025-12-09 08:10:58,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-65
+2025-12-09 08:10:58,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-68
+2025-12-09 08:10:58,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-67
+2025-12-09 08:11:00,345 INFO o.a.j.r.Summariser: summary +    243 in 00:00:30 =    8.0/s Avg:  5674 Min:  2005 Max: 36887 Err:   233 (95.88%) Active: 88 Started: 98 Finished: 10
+2025-12-09 08:11:00,346 INFO o.a.j.r.Summariser: summary =    772 in 00:02:02 =    6.3/s Avg:  6704 Min:  2005 Max: 51805 Err:   634 (82.12%)
+2025-12-09 08:11:08,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-72
+2025-12-09 08:11:08,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-70
+2025-12-09 08:11:08,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-71
+2025-12-09 08:11:08,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-69
+2025-12-09 08:11:18,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-74
+2025-12-09 08:11:18,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-73
+2025-12-09 08:11:18,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-75
+2025-12-09 08:11:18,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-76
+2025-12-09 08:11:28,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-80
+2025-12-09 08:11:28,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-78
+2025-12-09 08:11:28,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-79
+2025-12-09 08:11:28,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-77
+2025-12-09 08:11:30,165 INFO o.a.j.r.Summariser: summary +    286 in 00:00:30 =    9.6/s Avg:  6120 Min:  2447 Max: 58356 Err:   276 (96.50%) Active: 100 Started: 110 Finished: 10
+2025-12-09 08:11:30,166 INFO o.a.j.r.Summariser: summary =   1058 in 00:02:32 =    7.0/s Avg:  6546 Min:  2005 Max: 58356 Err:   910 (86.01%)
+2025-12-09 08:11:38,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-84
+2025-12-09 08:11:38,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-81
+2025-12-09 08:11:38,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-82
+2025-12-09 08:11:38,295 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-83
+2025-12-09 08:11:48,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-86
+2025-12-09 08:11:48,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-85
+2025-12-09 08:11:48,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-88
+2025-12-09 08:11:48,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-87
+2025-12-09 08:11:58,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-91
+2025-12-09 08:11:58,295 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-92
+2025-12-09 08:11:58,296 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-89
+2025-12-09 08:11:58,297 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-90
+2025-12-09 08:12:00,019 INFO o.a.j.r.Summariser: summary +    329 in 00:00:30 =   11.0/s Avg:  5733 Min:  2425 Max: 69212 Err:   323 (98.18%) Active: 112 Started: 122 Finished: 10
+2025-12-09 08:12:00,020 INFO o.a.j.r.Summariser: summary =   1387 in 00:03:02 =    7.6/s Avg:  6353 Min:  2005 Max: 69212 Err:  1233 (88.90%)
+2025-12-09 08:12:08,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-94
+2025-12-09 08:12:08,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-93
+2025-12-09 08:12:08,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-95
+2025-12-09 08:12:08,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-96
+2025-12-09 08:12:18,293 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-98
+2025-12-09 08:12:18,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-100
+2025-12-09 08:12:18,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-99
+2025-12-09 08:12:18,294 INFO o.a.j.t.JMeterThread: Thread started: Scalability test 3-97
+2025-12-09 08:12:25,490 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-31
+2025-12-09 08:12:25,507 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-59
+2025-12-09 08:12:25,731 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-28
+2025-12-09 08:12:25,823 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-58
+2025-12-09 08:12:25,918 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-29
+2025-12-09 08:12:25,935 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-6
+2025-12-09 08:12:25,944 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-99
+2025-12-09 08:12:25,963 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-100
+2025-12-09 08:12:25,963 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-97
+2025-12-09 08:12:26,006 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-5
+2025-12-09 08:12:26,468 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-60
+2025-12-09 08:12:26,563 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-4
+2025-12-09 08:12:26,594 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-88
+2025-12-09 08:12:26,655 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-86
+2025-12-09 08:12:26,751 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-62
+2025-12-09 08:12:26,860 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-57
+2025-12-09 08:12:26,917 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-16
+2025-12-09 08:12:27,125 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-87
+2025-12-09 08:12:27,161 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-85
+2025-12-09 08:12:27,208 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-48
+2025-12-09 08:12:27,221 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-74
+2025-12-09 08:12:27,262 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-76
+2025-12-09 08:12:27,266 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-36
+2025-12-09 08:12:27,294 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-34
+2025-12-09 08:12:27,473 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-22
+2025-12-09 08:12:27,507 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-23
+2025-12-09 08:12:27,673 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-47
+2025-12-09 08:12:27,675 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-46
+2025-12-09 08:12:27,722 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-73
+2025-12-09 08:12:27,830 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-11
+2025-12-09 08:12:27,913 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-64
+2025-12-09 08:12:27,970 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-21
+2025-12-09 08:12:28,457 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-49
+2025-12-09 08:12:28,458 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-49
+2025-12-09 08:12:28,471 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-35
+2025-12-09 08:12:28,472 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-35
+2025-12-09 08:12:28,553 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-51
+2025-12-09 08:12:28,554 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-51
+2025-12-09 08:12:28,654 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-7
+2025-12-09 08:12:28,654 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-7
+2025-12-09 08:12:28,726 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-17
+2025-12-09 08:12:28,727 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-17
+2025-12-09 08:12:28,899 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-42
+2025-12-09 08:12:28,900 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-42
+2025-12-09 08:12:28,913 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-63
+2025-12-09 08:12:28,913 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-63
+2025-12-09 08:12:28,938 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-92
+2025-12-09 08:12:28,938 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-92
+2025-12-09 08:12:28,938 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-91
+2025-12-09 08:12:28,939 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-91
+2025-12-09 08:12:28,949 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-89
+2025-12-09 08:12:28,950 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-89
+2025-12-09 08:12:28,952 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-90
+2025-12-09 08:12:28,953 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-90
+2025-12-09 08:12:29,056 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-38
+2025-12-09 08:12:29,056 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-38
+2025-12-09 08:12:29,476 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-2
+2025-12-09 08:12:29,477 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-2
+2025-12-09 08:12:29,498 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-75
+2025-12-09 08:12:29,499 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-75
+2025-12-09 08:12:29,557 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-80
+2025-12-09 08:12:29,557 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-80
+2025-12-09 08:12:29,562 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-40
+2025-12-09 08:12:29,562 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-40
+2025-12-09 08:12:29,596 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-78
+2025-12-09 08:12:29,597 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-78
+2025-12-09 08:12:29,603 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-1
+2025-12-09 08:12:29,603 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-1
+2025-12-09 08:12:29,662 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-14
+2025-12-09 08:12:29,662 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-14
+2025-12-09 08:12:29,691 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-12
+2025-12-09 08:12:29,692 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-12
+2025-12-09 08:12:29,887 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-44
+2025-12-09 08:12:29,887 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-44
+2025-12-09 08:12:29,895 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-50
+2025-12-09 08:12:29,895 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-50
+2025-12-09 08:12:30,050 INFO o.a.j.r.Summariser: summary +    373 in 00:00:30 =   12.4/s Avg:  5996 Min:  2002 Max: 75681 Err:   366 (98.12%) Active: 66 Started: 130 Finished: 64
+2025-12-09 08:12:30,051 INFO o.a.j.r.Summariser: summary =   1760 in 00:03:32 =    8.3/s Avg:  6278 Min:  2002 Max: 75681 Err:  1599 (90.85%)
+2025-12-09 08:12:30,051 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-77
+2025-12-09 08:12:30,051 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-77
+2025-12-09 08:12:30,092 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-52
+2025-12-09 08:12:30,092 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-52
+2025-12-09 08:12:30,174 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-19
+2025-12-09 08:12:30,174 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-19
+2025-12-09 08:12:30,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-79
+2025-12-09 08:12:30,218 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-79
+2025-12-09 08:12:30,237 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-61
+2025-12-09 08:12:30,237 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-61
+2025-12-09 08:12:30,256 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-32
+2025-12-09 08:12:30,257 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-32
+2025-12-09 08:12:30,279 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-65
+2025-12-09 08:12:30,280 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-65
+2025-12-09 08:12:30,339 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-10
+2025-12-09 08:12:30,340 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-10
+2025-12-09 08:12:30,386 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-27
+2025-12-09 08:12:30,386 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-27
+2025-12-09 08:12:30,466 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-13
+2025-12-09 08:12:30,467 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-13
+2025-12-09 08:12:30,497 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-68
+2025-12-09 08:12:30,497 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-68
+2025-12-09 08:12:30,617 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-8
+2025-12-09 08:12:30,617 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-8
+2025-12-09 08:12:30,619 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-15
+2025-12-09 08:12:30,620 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-15
+2025-12-09 08:12:30,662 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-25
+2025-12-09 08:12:30,663 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-25
+2025-12-09 08:12:30,865 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-67
+2025-12-09 08:12:30,866 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-55
+2025-12-09 08:12:30,866 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-67
+2025-12-09 08:12:30,866 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-55
+2025-12-09 08:12:30,928 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-26
+2025-12-09 08:12:30,928 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-26
+2025-12-09 08:12:30,957 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-9
+2025-12-09 08:12:30,958 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-9
+2025-12-09 08:12:31,062 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-18
+2025-12-09 08:12:31,063 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-18
+2025-12-09 08:12:31,118 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-37
+2025-12-09 08:12:31,118 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-37
+2025-12-09 08:12:31,126 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-3
+2025-12-09 08:12:31,126 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-3
+2025-12-09 08:12:31,257 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-94
+2025-12-09 08:12:31,258 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-94
+2025-12-09 08:12:31,261 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-93
+2025-12-09 08:12:31,261 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-93
+2025-12-09 08:12:31,262 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-96
+2025-12-09 08:12:31,262 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-96
+2025-12-09 08:12:31,305 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-95
+2025-12-09 08:12:31,305 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-95
+2025-12-09 08:12:31,499 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-45
+2025-12-09 08:12:31,500 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-45
+2025-12-09 08:12:31,506 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-41
+2025-12-09 08:12:31,507 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-41
+2025-12-09 08:12:31,522 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-43
+2025-12-09 08:12:31,522 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-43
+2025-12-09 08:12:31,700 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-53
+2025-12-09 08:12:31,700 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-53
+2025-12-09 08:12:31,829 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-82
+2025-12-09 08:12:31,829 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-82
+2025-12-09 08:12:31,865 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-56
+2025-12-09 08:12:31,866 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-56
+2025-12-09 08:12:31,871 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-30
+2025-12-09 08:12:31,872 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-30
+2025-12-09 08:12:31,939 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-83
+2025-12-09 08:12:31,939 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-83
+2025-12-09 08:12:32,215 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-66
+2025-12-09 08:12:32,215 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-66
+2025-12-09 08:12:32,225 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-84
+2025-12-09 08:12:32,226 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-84
+2025-12-09 08:12:32,285 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-20
+2025-12-09 08:12:32,285 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-20
+2025-12-09 08:12:32,308 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-39
+2025-12-09 08:12:32,308 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-39
+2025-12-09 08:12:32,309 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-54
+2025-12-09 08:12:32,310 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-54
+2025-12-09 08:12:32,313 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-98
+2025-12-09 08:12:32,314 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-98
+2025-12-09 08:12:32,346 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-33
+2025-12-09 08:12:32,347 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-33
+2025-12-09 08:12:32,376 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-81
+2025-12-09 08:12:32,376 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-81
+2025-12-09 08:12:32,578 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-70
+2025-12-09 08:12:32,578 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-70
+2025-12-09 08:12:32,637 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-69
+2025-12-09 08:12:32,638 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-69
+2025-12-09 08:12:32,837 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-24
+2025-12-09 08:12:32,838 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-24
+2025-12-09 08:12:32,886 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-71
+2025-12-09 08:12:32,887 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-71
+2025-12-09 08:12:33,332 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scalability test 3-72
+2025-12-09 08:12:33,332 INFO o.a.j.t.JMeterThread: Thread finished: Scalability test 3-72
+2025-12-09 09:25:13,261 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Throughput test 2-15
+2025-12-09 09:25:13,261 INFO o.a.j.t.JMeterThread: Thread finished: Throughput test 2-15
+2025-12-09 09:25:15,066 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Throughput test 2-2
+2025-12-09 09:25:15,066 INFO o.a.j.t.JMeterThread: Thread finished: Throughput test 2-2
+2025-12-09 09:25:19,782 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Throughput test 2-10
+2025-12-09 09:25:19,783 INFO o.a.j.t.JMeterThread: Thread finished: Throughput test 2-10
+2025-12-09 09:25:21,366 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Throughput test 2-7
+2025-12-09 09:25:21,367 INFO o.a.j.t.JMeterThread: Thread finished: Throughput test 2-7
+2025-12-09 09:25:25,067 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Throughput test 2-20
+2025-12-09 09:25:25,067 INFO o.a.j.t.JMeterThread: Thread finished: Throughput test 2-20
+2025-12-09 09:25:28,283 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Throughput test 2-1
+2025-12-09 09:25:28,283 INFO o.a.j.t.JMeterThread: Thread finished: Throughput test 2-1
+2025-12-09 09:25:29,800 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Throughput test 2-9
+2025-12-09 09:25:29,800 INFO o.a.j.t.JMeterThread: Thread finished: Throughput test 2-9
+2025-12-09 09:25:35,857 INFO o.a.j.r.Summariser: summary +     65 in 01:13:06 =    0.0/s Avg: 296794 Min:  4633 Max: 4394499 Err:    48 (73.85%) Active: 13 Started: 130 Finished: 117
+2025-12-09 09:25:35,857 INFO o.a.j.r.Summariser: summary =   1825 in 01:16:38 =    0.4/s Avg: 16625 Min:  2002 Max: 4394499 Err:  1647 (90.25%)
+2025-12-09 09:25:35,857 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Throughput test 2-3
+2025-12-09 09:25:35,858 INFO o.a.j.t.JMeterThread: Thread finished: Throughput test 2-3
+2025-12-09 09:25:40,627 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Throughput test 2-19
+2025-12-09 09:25:40,628 INFO o.a.j.t.JMeterThread: Thread finished: Throughput test 2-19
+2025-12-09 09:25:40,663 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Throughput test 2-11
+2025-12-09 09:25:40,663 INFO o.a.j.t.JMeterThread: Thread finished: Throughput test 2-11
+2025-12-09 09:25:40,967 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Throughput test 2-16
+2025-12-09 09:25:40,967 INFO o.a.j.t.JMeterThread: Thread finished: Throughput test 2-16
+2025-12-09 09:25:41,012 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Throughput test 2-6
+2025-12-09 09:25:41,012 INFO o.a.j.t.JMeterThread: Thread finished: Throughput test 2-6
+2025-12-09 09:25:41,082 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Throughput test 2-17
+2025-12-09 09:25:41,083 INFO o.a.j.t.JMeterThread: Thread finished: Throughput test 2-17
+2025-12-09 09:25:42,891 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Throughput test 2-14
+2025-12-09 09:25:42,891 INFO o.a.j.t.JMeterThread: Thread finished: Throughput test 2-14
+2025-12-09 09:25:42,951 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Throughput test 2-5
+2025-12-09 09:25:42,952 INFO o.a.j.t.JMeterThread: Thread finished: Throughput test 2-5
+2025-12-09 09:25:42,971 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Throughput test 2-4
+2025-12-09 09:25:42,972 INFO o.a.j.t.JMeterThread: Thread finished: Throughput test 2-4
+2025-12-09 09:25:42,990 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Throughput test 2-12
+2025-12-09 09:25:42,990 INFO o.a.j.t.JMeterThread: Thread finished: Throughput test 2-12
+2025-12-09 09:25:43,033 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Throughput test 2-8
+2025-12-09 09:25:43,033 INFO o.a.j.t.JMeterThread: Thread finished: Throughput test 2-8
+2025-12-09 09:25:43,425 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Throughput test 2-13
+2025-12-09 09:25:43,425 INFO o.a.j.t.JMeterThread: Thread finished: Throughput test 2-13
+2025-12-09 09:25:46,671 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Throughput test 2-18
+2025-12-09 09:25:46,671 INFO o.a.j.t.JMeterThread: Thread finished: Throughput test 2-18
+2025-12-09 09:25:46,672 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-12-09 09:25:46,675 INFO o.a.j.r.Summariser: summary +     12 in 00:00:11 =    1.1/s Avg: 2585881 Min: 80965 Max: 4392528 Err:     7 (58.33%) Active: 0 Started: 130 Finished: 130
+2025-12-09 09:25:46,675 INFO o.a.j.r.Summariser: summary =   1837 in 01:16:48 =    0.4/s Avg: 33408 Min:  2002 Max: 4394499 Err:  1654 (90.04%)
+2025-12-09 09:25:46,676 INFO o.a.j.JMeter: Generating Dashboard
+2025-12-09 09:25:46,677 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2025-12-09 09:25:46,705 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2025-12-09 09:25:47,181 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2025-12-09 09:25:47,181 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2025-12-09 09:25:47,184 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2025-12-09 09:25:47,184 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2025-12-09 09:25:47,203 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2025-12-09 09:25:47,206 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2025-12-09 09:25:47,206 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2025-12-09 09:25:47,206 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2025-12-09 09:25:47,331 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2025-12-09 09:25:47,333 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2025-12-09 09:25:47,333 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2025-12-09 09:25:47,333 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2025-12-09 09:25:47,405 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2025-12-09 09:25:47,407 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 35427 samples
+2025-12-09 09:25:47,407 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2025-12-09 09:25:47,407 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2025-12-09 09:25:47,407 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2025-12-09 09:25:47,410 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2025-12-09 09:25:47,413 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2025-12-09 09:25:47,415 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2025-12-09 09:25:47,428 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2025-12-09 09:25:47,430 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2025-12-09 09:25:47,430 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2025-12-09 09:25:47,430 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2025-12-09 09:25:47,430 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 89445 samples
+2025-12-09 09:25:47,430 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 17889 samples
+2025-12-09 09:25:47,430 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 5963 samples
+2025-12-09 09:25:47,431 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 5963 samples produced in 679ms on channel 0
+2025-12-09 09:25:47,431 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2025-12-09 09:25:47,571 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2025-12-09 09:25:47,571 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2025-12-09 09:25:47,572 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2025-12-09 09:25:47,573 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2025-12-09 09:25:47,574 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\Administrator\Desktop\JMeter\Jmeter Project\reportq1\statistics.json
+2025-12-09 09:25:47,686 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2025-12-09 09:25:47,691 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\Administrator\Desktop\JMeter\Jmeter Project\reportq1
+2025-12-09 09:25:48,008 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\Administrator\Desktop\JMeter\Jmeter Project\reportq1, creating folder structure
+2025-12-09 09:25:48,014 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\apache-jmeter-5.6.3\bin\report-template' to 'C:\Users\Administrator\Desktop\JMeter\Jmeter Project\reportq1', got message: C:\Users\Administrator\Desktop\JMeter\Jmeter Project\reportq1, found non empty folder with following content [C:\Users\Administrator\Desktop\JMeter\Jmeter Project\reportq1\statistics.json], will be ignored
+2025-12-09 09:25:48,980 INFO o.a.j.JMeter: Dashboard generated
